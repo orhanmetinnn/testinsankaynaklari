@@ -1,0 +1,706 @@
+@media (max-width: 767px) {
+    #hbackground {
+        height: 350px;
+        background: rgb(30, 79, 76);
+        background: linear-gradient(36deg, rgba(30, 79, 76, 1) 0%, rgba(0, 0, 0, 1) 23%);
+    }
+
+    #mainanasayfabaslikdiv {
+        margin-top: 50px;
+    }
+
+    #h2mainfirma {
+        color: #15b8ae;
+        text-align: center;
+        font-family: BaslikFont2;
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+
+    #maindahafazlabutton {
+        margin-top: 20px;
+        color: white;
+        background-color: #15b8ae;
+        width: 150px;
+        height: 50px;
+        font-family: BaslikFont;
+    }
+
+    @keyframes underline {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    .underline-animation span {
+        position: relative;
+        display: inline-block;
+    }
+
+    .underline-animation span::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 4px; /* Çizginin kalınlığını ayarlayabilirsiniz */
+        background-color: #15b8ae; /* Çizginin rengini ayarlayabilirsiniz */
+        animation: underline 1s forwards; /* Animasyonu 1 saniye boyunca oynat ve durdur */
+    }
+
+
+    html, body {
+        width: 100%;
+        overflow-x: hidden; /* Yatay kaydırmayı engeller */
+    }
+
+
+    #group3group1,
+    #group3group2 {
+        margin-top: 20px;
+    }
+
+    #div2h2,
+    #div2h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #divgroup3col1 {
+        background: rgb(11, 12, 19);
+        background: linear-gradient(139deg, rgba(11, 12, 19, 1) 64%, rgba(17, 94, 93, 1) 100%);
+        height: 1050px;
+    }
+
+
+    #divgroup3col1h3 {
+        margin-top: 40px;
+        color: white;
+        font-family: monrope-700;
+        font-size: 21px;
+        text-align: left;
+    }
+
+    #divgroup3col1petiketi1 {
+        color: white;
+        text-align: left;
+        margin-top: 2em;
+        font-family: Montserrat-Regular;
+        font-size: 15px;
+        color: #e7e7e7;
+    }
+
+
+    #divgroup3col1div2group1 > div,
+    #divgroup3col1div2group2 > div {
+        margin-bottom: 15px;
+    }
+
+    #divgroup3col1div2group2 {
+        /*margin-top: 80px;*/
+        max-width: 100%;
+    }
+
+
+    .image-container {
+        min-width: 100%;
+        text-align: center; /* Resmi ortalamak için */
+    }
+
+
+    .image-container img {
+        margin-top: 25px;
+        height: 650px;
+    }
+
+    .image-container {
+        position: relative;
+        /*display: inline-block;*/
+    }
+
+
+    #chart1p1 {
+        padding-right: 10px;
+    }
+
+    #chart1p1 p:first-child {
+        padding-left: 10px;
+        font-family: monrope-700;
+        font-size: 24px;
+    }
+
+
+    .center-text {
+        position: absolute;
+        top: 52%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        color: #1a1919;
+        font-weight: bold;
+    }
+
+    #imagegroupdiv1 {
+        margin-bottom: 160px;
+        bottom: 5px;
+
+    }
+
+    #imagegroupdiv2 {
+        bottom: 16px;
+    }
+
+    #imagegroupdiv1,
+    #imagegroupdiv2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        height: 140px;
+        background-color: white;
+        min-width: 350px;
+        max-width: 400px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    .group4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #gruop4div1h3 {
+        text-align: center;
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 17px;
+        margin-top: 3em;
+    }
+
+
+    #gruop4div1h2 {
+        margin-top: 0.5em;
+        text-align: center;
+        color: black;
+        font-family: monrope-700;
+        font-size: 30px;
+    }
+
+    #group4div2tag {
+        display: flex;
+    }
+
+    #isealimh4 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    #gruop4div {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        padding: 22px;
+        height: 220px;
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+
+
+    #group4div4 a {
+        text-decoration: none; /* Bağlantı altı çizgisi kaldır */
+        cursor: pointer; /* Fark edilebilir bir imleç kullan */
+        display: inline-block; /* Metni blok olarak görüntüle */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 18px;
+    }
+
+    #group4div4 a::after {
+        content: '\2192'; /* Unicode sağ dönük ok karakteri */
+        margin-left: 3px; /* Ok ile metin arasında boşluk bırak */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 17px;
+    }
+
+
+    #gruop4div2 {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        padding: 22px;
+        height: 220px;
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+
+    }
+
+    #group4div42 a {
+        text-decoration: none; /* Bağlantı altı çizgisi kaldır */
+        cursor: pointer; /* Fark edilebilir bir imleç kullan */
+        display: inline-block; /* Metni blok olarak görüntüle */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 18px;
+    }
+
+    #group4div42 a::after {
+        content: '\2192'; /* Unicode sağ dönük ok karakteri */
+        margin-left: 3px; /* Ok ile metin arasında boşluk bırak */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 17px;
+    }
+
+
+    #isealimh42,
+    #isealimh4 {
+        padding-left: 8px;
+    }
+
+
+    #isealimimage2 {
+        margin-top: 6px;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden; /* Yatay kaydırmayı engeller */
+    }
+
+    #hbackground {
+        /*background-color: black;*/
+        height: 570px;
+        background: rgb(17, 94, 93);
+        background: linear-gradient(42deg, rgba(17, 94, 93, 1) 0%, rgba(11, 12, 19, 1) 19%);
+
+    }
+
+    #h1mainhizmet {
+        font-size: 40px;
+    }
+
+    #h2mainfirma {
+        color: #15b8ae;
+        font-family: BaslikFont2;
+        font-size: 18px;
+
+    }
+
+
+    #mainanasayfabaslikdiv > div {
+        margin-bottom: 2em;
+    }
+
+    #mainanasayfabaslikdiv {
+        margin-top: 120px;
+        padding-left: 150px;
+    }
+
+
+    #col2groupheader > div {
+        margin-bottom: 0.7em;
+    }
+
+    #col2groupheader > div > span {
+        font-family: Karla-Regular;
+        color: #dddddd;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #col2groupheader {
+        margin-top: 140px;
+        margin-left: 30px;
+    }
+
+
+    #maindahafazlabutton {
+        color: white;
+        background-color: #15b8ae;
+        width: 150px;
+        height: 50px;
+        font-family: BaslikFont;
+    }
+
+
+    @keyframes underline {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    .underline-animation span {
+        position: relative;
+        display: inline-block;
+    }
+
+    .underline-animation span::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 4px; /* Çizginin kalınlığını ayarlayabilirsiniz */
+        background-color: #15b8ae; /* Çizginin rengini ayarlayabilirsiniz */
+        animation: underline 1s forwards; /* Animasyonu 1 saniye boyunca oynat ve durdur */
+    }
+
+
+    #homepagegruop1image2 {
+        position: absolute;
+        border: 20px solid white;
+        top: 240px;
+        z-index: 1;
+        left: -2px;
+    }
+
+    #homepagegruop1image3 {
+        position: absolute;
+        z-index: 1;
+        top: 330px;
+        left: 305px;
+    }
+
+
+    #group3h1 {
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 24px;
+    }
+
+    #div2h2 {
+        color: black;
+        font-family: monrope-700;
+        font-size: 25px
+    }
+
+    #div2h23 {
+        color: black;
+        font-family: monrope-700;
+        font-size: 25px
+    }
+
+    #group3group1 {
+        float: left;
+    }
+
+
+    #group3group1 > div {
+        margin-bottom: 1em;
+    }
+
+
+    #group3group2 > div {
+        margin-bottom: 1em;
+    }
+
+
+    #group3group2 {
+        float: right;
+    }
+
+    #ikbdiv {
+        width: 550px
+    }
+
+    #group2group1 > div {
+        margin-bottom: 1.4em;
+    }
+
+    #divgroup2 {
+        margin-top: 50px;
+    }
+
+
+    #group2group1 {
+        margin-top: 27px;
+    }
+
+    #group3group1,
+    #group3group2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #group2group1div {
+        display: flex
+    }
+
+
+    #divgroup3 {
+        margin-top: 5em;
+    }
+
+
+    #divgroup3col1 {
+        background: rgb(11, 12, 19);
+        background: linear-gradient(139deg, rgba(11, 12, 19, 1) 64%, rgba(17, 94, 93, 1) 100%);
+        height: 850px;
+        max-width: 100%;
+    }
+
+    #divgroup3col1div1 {
+        margin-top: 6em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    .img-fluid {
+        min-width: 100%;
+        height: 917px;
+    }
+
+    #divgroup3col1h3 {
+
+        color: white;
+        font-family: monrope-700;
+        font-size: 26px;
+        text-align: left;
+    }
+
+    #divgroup3col1petiketi1 {
+        color: white;
+        text-align: left;
+        margin-top: 2em;
+        font-family: Montserrat-Regular;
+        font-size: 17px;
+        color: #e7e7e7;
+    }
+
+
+    .divgroup3col1div2-container {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    #divgroup3col1div2group1,
+    #divgroup3col1div2group2 {
+        flex: 1;
+        box-sizing: border-box;
+    }
+
+    #divgroup3col1div2group1 > div,
+    #divgroup3col1div2group2 > div {
+        margin-bottom: 1.5em;
+    }
+
+    #divgroup3col1div2group1 > div,
+    #divgroup3col1div2group2 > div {
+        margin-bottom: 1.5em;
+    }
+
+    #divgroup3col1div2group1 p,
+    #divgroup3col1div2group2 p {
+        max-width: 90%; /* Maksimum genişlik ulaşabilir */
+    }
+
+
+    .image-container {
+        position: relative;
+        /*display: inline-block;*/
+    }
+
+    #imagegroupdiv1,
+    #imagegroupdiv2 {
+        position: absolute;
+        bottom: 40px;
+        height: 150px;
+        width: 390px;
+        background-color: white;
+        left: 30px;
+    }
+
+    #imagegroupdiv2 {
+        left: 50%;
+    }
+
+
+    #group4div {
+        margin-top: 3em;
+    }
+
+    #gruop4div1h3 {
+        text-align: center;
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 17px;
+        margin-top: 3em;
+    }
+
+
+    #gruop4div1h2 {
+        margin-top: 0.5em;
+        text-align: center;
+        color: black;
+        font-family: monrope-700;
+        font-size: 30px;
+    }
+
+
+    #callbackgroup {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2em;
+    }
+
+
+    #gruop4div {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        padding: 22px;
+        height: 200px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    #group4div2tag {
+        display: flex;
+    }
+
+    #isealimimage {
+        /*padding-top: 5px;*/
+    }
+
+    #isealimimage2 {
+
+    }
+
+    #isealimh42 {
+        padding-left: 8px;
+    }
+
+
+    #isealimh4 {
+        padding-top: 3px;
+        padding-left: 8px;
+        font-family: monrope-700;
+    }
+
+    #group4div3 {
+        margin-top: 0.5em;
+    }
+
+    #group4div4 a {
+        text-decoration: none; /* Bağlantı altı çizgisi kaldır */
+        cursor: pointer; /* Fark edilebilir bir imleç kullan */
+        display: inline-block; /* Metni blok olarak görüntüle */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 18px;
+    }
+
+    #group4div4 a::after {
+        content: '\2192'; /* Unicode sağ dönük ok karakteri */
+        margin-left: 3px; /* Ok ile metin arasında boşluk bırak */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 17px;
+    }
+
+
+    #group4div42 a {
+        text-decoration: none; /* Bağlantı altı çizgisi kaldır */
+        cursor: pointer; /* Fark edilebilir bir imleç kullan */
+        display: inline-block; /* Metni blok olarak görüntüle */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 18px;
+    }
+
+    #group4div42 a::after {
+        content: '\2192'; /* Unicode sağ dönük ok karakteri */
+        margin-left: 3px; /* Ok ile metin arasında boşluk bırak */
+        color: #15b8ae;
+        font-family: monrope-700;
+        font-size: 17px;
+    }
+
+    #group4div42 {
+        margin-top: 8%;
+    }
+
+
+    #group4div3 > p {
+        color: #6d6d6d
+    }
+
+    #gruop4div2 {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        padding: 22px;
+        height: 200px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+
+    .animated-slide {
+        animation: animateslide 1s ease-in-out forwards;
+    }
+
+    @keyframes animateslide {
+        from {
+            transform: translateX(-500px);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    .center-text {
+        position: absolute;
+        top: 50%;
+        left: 17%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        color: #1a1919;
+        font-weight: bold;
+    }
+
+    #imagegroupdiv1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #chart {
+        margin-bottom: 5px;
+    }
+
+    #chart1p1 {
+        padding-right: 10px;
+    }
+
+    #chart1p1 p:first-child {
+        padding-left: 10px;
+        font-family: monrope-700;
+        font-size: 24px;
+    }
+
+    #test {
+        font-size: 15px;
+        padding-left: 9px;
+        color: #6d6d6d;
+    }
+
+    #imagegroupdiv2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

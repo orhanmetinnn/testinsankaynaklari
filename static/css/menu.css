@@ -1,0 +1,94 @@
+/* Navbar arka plan rengi ve z-index */
+.navbar {
+    background-color: #0b0c13; /* Navbar arka plan rengi */
+    z-index: 1000; /* Yüksek bir z-index değeri veriyoruz */
+}
+
+.navbar-collapse {
+    transition: height 0.3s ease;
+    background-color: #0b0c13; /* Menü arka plan rengi */
+    z-index: 1000; /* Yüksek bir z-index değeri veriyoruz */
+}
+
+
+@media (max-width: 1999px) {
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        background-color: #0b0c13; /* Menü arka plan rengi */
+    }
+
+    .navbar-collapse.show {
+        background-color: #0b0c13; /* Menü arka plan rengi */
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1); /* Toggler buton kenarlığı */
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    #underlinehome {
+        border-bottom: 2px solid #15b8ae;
+
+    }
+
+    .underlineposition {
+        border-bottom: 2px solid black;
+    }
+
+    .underlineposition:hover {
+        border-bottom: 2px solid #15b8ae;
+    }
+
+    .iletisimbuttondesing {
+        height: 40px;
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    .navbar-nav {
+        margin: 0 auto; /* Navbar menüsünü ortala */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        justify-content: center; /* Masaüstü menüyü ortala */
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

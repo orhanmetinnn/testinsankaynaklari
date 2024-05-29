@@ -1,0 +1,103 @@
+@media (max-width: 767px) {
+
+    #callbackdiv {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    #ikcallback {
+        color: #6d6d6d;
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+    }
+
+    #callbackbutton {
+        color: white;
+        background-color: #15b8ae;
+        width: 130px;
+        height: 45px;
+        font-family: BaslikFont;
+        margin-top: 8px;
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .containercallback {
+        display: flex;
+        padding-top: 10px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    #callbacknumara {
+        color: black;
+        font-family: monrope-700;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+
+
+}
+
+
+@media (min-width: 1200px) {
+    #callbackdiv {
+        margin-top: 3em;
+    }
+
+    #ikcallback {
+        color: #6d6d6d;
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        padding-left: 20px;
+        margin-left: 7px;
+
+    }
+
+    #callbackbutton {
+        color: white;
+        background-color: #15b8ae;
+        width: 130px;
+        height: 45px;
+        font-family: BaslikFont;
+        margin-top: 12px;
+        font-size: 15px;
+    }
+
+    .containercallback {
+        display: flex;
+        padding-top: 7px;
+        align-items: center;
+
+    }
+
+    .container > div {
+        margin-right: 10px;
+    }
+
+    .containermain {
+        display: flex;
+        margin-left: 24%;
+    }
+
+    .containermain > div {
+        margin-right: 35px;
+    }
+
+
+    #callbacknumara {
+        color: black;
+        font-family: monrope-700;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #callbacknumara:hover {
+        color: #15b8ae;
+    }
+
+}
+
+

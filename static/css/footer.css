@@ -1,0 +1,328 @@
+@media (max-width: 767px) {
+
+    .footerbackground {
+        width: 100%;
+        height: 100%;
+        margin-top: 1.7em;
+        background-color: #0b0c13;
+    }
+
+    #bultennameptag {
+        font-size: 17px;
+        font-family: monrope-700;
+        color: #15b8ae;
+    }
+
+
+    #footermailbultenmaindiv {
+        margin-top: 25px;
+
+    }
+
+    #mailregisterinput {
+        padding: 6px 12px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        appearance: none;
+        border-radius: 4px;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        width: 100%;
+        height: 47px;
+    }
+
+    #mailregisterinput:focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+    }
+
+    #mailaboneolbutton {
+        color: white;
+        background-color: #15b8ae;
+        width: 120px;
+        height: 45px;
+        font-family: BaslikFont;
+        font-size: 18px;
+        /*margin-left: 15px;*/
+        margin-top: 15px;
+    }
+
+    .socialmediagroupdiv1 > div {
+        display: flex;
+    }
+
+    .socialmediagroup {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+
+    .socialmediasquare {
+        background-color: #15b8ae;
+        height: 52px;
+        width: 52px;
+        margin-left: 32px;
+
+    }
+
+
+    .footeriletisimgroup > div > div > a:first-child {
+        color: white;
+        font-family: monrope-700;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+
+    .footeriletisimgroup > div {
+        width: 440px;
+    }
+
+    .footeriletisimgroup {
+        margin-top: 19px;
+    }
+
+    .footeriletisimgroup > div {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #mailatag {
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+
+
+    #footeriskur {
+        display: flex;
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    #iskurozelisdihdambelgesilogo {
+        height: 100px;
+        width: 100px;
+    }
+
+    #sayilikanun {
+        color: white;
+        font-family: monrope-700;
+        font-size: 12px;
+    }
+
+
+    #sayilikanundiv {
+        margin-top: 3px;
+        margin-left: 15px;
+    }
+
+    #iskuradres {
+        margin-top: 30px;
+        width: 400px;
+    }
+
+    #iskuradres > p {
+        color: white;
+        font-family: monrope-700;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+
+    #yasaldiv > ul > li a {
+        display: block;
+        color: white;
+        font-family: monrope-700;
+        font-size: 14px;
+        text-decoration: none;
+        margin-top: 30px;
+    }
+
+
+    #yasaldiv > ul > li {
+        list-style-type: none;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    .footerbackground {
+        width: 100%;
+        height: 400px;
+        margin-top: 1.7em;
+        background-color: #0b0c13;
+    }
+
+    #footermailbultenmaindiv {
+        width: 470px;
+        margin-left: 26px;
+        margin-top: 2em;
+    }
+
+
+    #bultennameptag {
+        font-size: 20px;
+        font-family: monrope-700;
+        color: #15b8ae;
+    }
+
+    #mailregisterinput {
+        padding: 6px 12px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        appearance: none;
+        border-radius: 4px;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        width: 320px;
+        height: 47px;
+    }
+
+    #mailregisterinput:focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+    }
+
+    #mailgroup {
+        display: flex;
+        align-items: center;
+    }
+
+
+    #mailaboneolbutton {
+        color: white;
+        background-color: #15b8ae;
+        width: 120px;
+        height: 45px;
+        font-family: BaslikFont;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .socialmediagroup {
+        margin-top: 2em;
+        width: 350px;
+    }
+
+    .socialmediasquare {
+        background-color: #15b8ae;
+        height: 52px;
+        width: 52px;
+        margin-left: 32px;
+
+    }
+
+
+    .socialmediagroupdiv1 > div {
+        display: flex;
+    }
+
+    .footeriletisimgroup > div > div > a:first-child {
+        color: white;
+        font-family: monrope-700;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+
+    .footeriletisimgroup > div {
+        width: 440px;
+    }
+
+    .footeriletisimgroup {
+        margin-top: 19px;
+    }
+
+    .footeriletisimgroup > div {
+        display: flex;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #mailatag {
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+
+
+    #iskurozelisdihdambelgesilogo {
+        height: 100px;
+        width: 100px;
+    }
+
+    #footeriskur {
+        display: flex;
+        width: 400px;
+        margin-top: 50px;
+    }
+
+
+    #sayilikanundiv {
+        margin-top: 3px;
+        margin-left: 15px;
+    }
+
+    #sayilikanun {
+        color: white;
+        font-family: monrope-700;
+        font-size: 12px;
+    }
+
+    #iskuradres {
+        margin-top: 30px;
+        width: 400px;
+    }
+
+    #iskuradres > p {
+        color: white;
+        font-family: monrope-700;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #iskurozelisdihdambelgesilogo:hover {
+        height: 120px;
+        width: 120px;
+    }
+
+    #containerfooter {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #yasaldiv > ul > li a {
+        display: block;
+        color: white;
+        font-family: monrope-700;
+        font-size: 14px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+
+    #yasaldiv > ul > li {
+        list-style-type: none;
+    }
+
+    #containeryasa {
+        margin-top: 50px;
+    }
+
+
+
+}
