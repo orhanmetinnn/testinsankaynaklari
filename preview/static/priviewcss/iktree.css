@@ -1,0 +1,17 @@
+@media (min-width: 1200px) {
+    .content {
+        flex: 1; /* Bu içerik alanının sayfa boyunca genişlemesini sağlar */
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden; /* Yatay kaydırmayı engeller */
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -159,6 +159,8 @@
         height: 400px;
         margin-top: 1.7em;
         background-color: #0b0c13;
+        /*position: relative;*/
+        bottom: 100%;
     }
 
     #footermailbultenmaindiv {
@@ -322,7 +324,6 @@
     #containeryasa {
         margin-top: 50px;
     }
-
 
 
 }
