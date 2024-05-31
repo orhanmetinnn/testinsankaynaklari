@@ -1,14 +1,13 @@
 from django.db import models
-
-# Create your models here.
-from django.db import models
-from ckeditor.fields import RichTextField
+from ckeditor_uploader.fields import RichTextUploadingField  # RichTextField yerine kullanacağız
 from django.utils.text import slugify
 
 class BlogPost(models.Model):
     title = models.CharField(max_length=200)
     slug = models.SlugField(unique=True, blank=True)
-    content = RichTextField()
+    content = RichTextUploadingField()  # RichTextField yerine RichTextUploadingField
+    meta_description = models.CharField(max_length=160, blank=True)  # Meta açıklama alanı
+    main_description = models.TextField(blank=True)  # Ana açıklama alanı
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

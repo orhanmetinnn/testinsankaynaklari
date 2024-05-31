@@ -1,0 +1,52 @@
+@media (min-width: 1200px) {
+
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        vertical-align: middle; /* Ok işaretini ortalar */
+        margin-right: 8px;
+        margin-bottom: 2px;
+
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    #hizmetlerimiz p {
+        display: inline-block; /* Metinle aynı hizaya gelmesini sağlar */
+        vertical-align: middle; /* Metni ortalar */
+        font-family: monrope-700;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+
+    #mainrightsidebarik > ul > li > a {
+        text-decoration: none; /* Bağlantı altı çizgisi kaldır */
+        cursor: pointer; /* Fark edilebilir bir imleç kullan */
+        display: inline-block; /* Metni blok olarak görüntüle */
+        color: black;
+        font-family: monrope-700;
+        font-size: 15px;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    #mainrightsidebarik > ul > li {
+        list-style-type: none;
+        margin-top: 15px;
+    }
+
+    #mainrightsidebarik > ul > li > a :hover{
+        text-decoration: none; /* Bağlantı altı çizgisi kaldır */
+        color: red;
+        font-family: monrope-700;
+        font-size: 15px;
+    }
+
+
+}
