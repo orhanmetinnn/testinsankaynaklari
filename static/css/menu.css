@@ -39,7 +39,7 @@
     }
 
     .underlineposition {
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid #0b0c13;
     }
 
     .underlineposition:hover {
@@ -61,6 +61,16 @@
 
     .navbar {
         justify-content: center; /* Masaüstü menüyü ortala */
+    }
+
+    .dropdown-item{
+        font-family: BaslikFont2;
+        margin-bottom: 8px;
+    }
+
+    .dropdown-item:hover{
+        background-color: #15b8ae;
+        color: white;
     }
 
 }

@@ -18,9 +18,12 @@
     <script src="{% static 'js/insankaynaklari.js' %}"></script>
     <script src="{% static 'js/homepagebase.js' %}"></script>
     <script src="{% static 'js/mailregister.js' %}"></script>
+    <script src="{% static 'js/footer.js' %}"></script>
+
 
 
     <title>UZMAN İNSAN KAYNAKLARI</title>
+
     <style>
         @font-face {
             font-family: 'MyFont';
@@ -33,26 +36,31 @@
             src: url('{% static "font/Ubuntu/Ubuntu-Bold.ttf" %}') format('truetype');
             font-weight: normal;
         }
+
         @font-face {
             font-family: 'BaslikFont2';
             src: url('{% static "font/Monserrat/Montserrat-Medium.ttf" %}') format('truetype');
             font-weight: normal;
         }
+
         @font-face {
             font-family: 'Karla-Regular';
             src: url('{% static "font/karla/Karla-Regular.ttf" %}') format('truetype');
             font-weight: normal;
         }
+
         @font-face {
             font-family: 'Montserrat-Regular';
             src: url('{% static "font/Monserrat/Montserrat-Regular.ttf" %}') format('truetype');
             font-weight: normal;
         }
+
         @font-face {
             font-family: 'monrope';
             src: url('{% static "font/monrope/Manrope-SemiBold.ttf" %}') format('truetype');
             font-weight: normal;
         }
+
         @font-face {
             font-family: 'monrope-700';
             src: url('{% static "font/monrope/Manrope-Bold.ttf" %}') format('truetype');
@@ -63,6 +71,11 @@
 
 </head>
 <body>
-    {% block content %} {% endblock %}
+{% block content %} {% endblock %}
+
+
+
+
+
 </body>
 </html>

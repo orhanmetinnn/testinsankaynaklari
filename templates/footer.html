@@ -11,17 +11,16 @@
                             <p id="bultennameptag">Bültenimize Abone Olun & En Son Haberleri Alın</p>
                         </div>
                         <div id="mailgroup">
-
-                            <div>
-                                <input type="text" name="" id="mailregisterinput" placeholder="Mail Adresi">
-                            </div>
-
-                            <div>
-                                <button type="button" class="btn" id="mailaboneolbutton">
-                                    Abone Ol
-                                </button>
-                            </div>
-
+                            <form id="newsletterForm" method="post" action="">
+                                {% csrf_token %}
+                                <div class="input-group-mail">
+                                    <input type="email" name="email" id="mailregisterinput" placeholder="Mail Adresi"
+                                           required>
+                                    <button type="submit" class="btn" id="mailaboneolbutton">Abone Ol</button>
+                                </div>
+                            </form>
+                            <p id="successMessage" style="display:none;">Aboneliğiniz başarılı bir şekilde
+                                gerçekleştirilmiştir.</p>
                         </div>
                     </div>
                 </div>

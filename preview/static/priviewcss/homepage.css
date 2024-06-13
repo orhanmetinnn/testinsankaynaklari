@@ -145,7 +145,7 @@
     }
 
     #imagegroupdiv1 {
-        margin-bottom: 160px;
+        margin-bottom: 175px;
         bottom: 5px;
 
     }
@@ -160,14 +160,13 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        height: 140px;
+        height: 150px;
         background-color: white;
         min-width: 350px;
         max-width: 400px;
         margin-left: 5%;
         margin-right: 5%;
     }
-
 
     .group4 {
         margin-top: 20px;
@@ -268,6 +267,15 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 1200px) {
@@ -518,15 +526,19 @@
     #imagegroupdiv2 {
         position: absolute;
         bottom: 40px;
-        height: 150px;
+        height: 160px;
         width: 390px;
         background-color: white;
         left: 30px;
     }
 
+
+
     #imagegroupdiv2 {
         left: 50%;
     }
+
+
 
 
     #group4div {
